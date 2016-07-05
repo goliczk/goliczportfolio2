@@ -1,0 +1,274 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'SALARYMA';
+	src:url(../Font/SALARYMA.ttf);
+}
+
+header{
+	background-color:#58EFC7;
+	align-content:center;
+	border-style:double;
+	border-width:5px;
+}
+
+h1 {
+	font-family: SALARYMA, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align:center;
+	color:black;
+	letter-spacing:8px;
+	font-size:40px;	
+	padding-top:5px;
+}
+
+.Tagline {
+	color:white;
+	text-shadow:
+		-1px -1px 0 #000,  
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+     	1px 1px 0 #000;
+	 letter-spacing: 4.5px;
+	 text-align:center;
+}
+
+nav { 
+	cursor:pointer;
+	color:#30DB1C;
+	width:98%;
+	text-align:center;
+}
+
+.top {
+	width:550px;
+	height:50px;
+	text-align:center;
+	align-content:center;
+	margin:0 auto;
+}
+
+.welcome {
+	text-align:center;
+}
+
+.welcome a:hover {
+	color:#0D1FE3;
+}
+
+.top ul {
+	height:auto;
+	text-align:center;
+	align-content:center;
+}
+
+.top li {
+	display:inline;
+	padding-right:20px;
+	text-align:center;
+	align-content:center;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+
+.top a {
+	color:#000000;
+}
+
+.top a:hover {
+	color:#0D1FE3;
+}
+
+.resume {
+	text-align:center;
+	align-content:center;
+}
+
+body {
+	color:#FFFFFF;
+	padding-left:60px;
+	padding-right:60px;
+	border-bottom:dotted;
+	border-bottom-color:#79F3E9;
+	background-color:#000000;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+}
+
+img {
+	width: auto;
+	height: 200px;
+	align-content:center;
+	border-radius: 5px,5px,5px,5px;
+}
+
+.projects {
+	display:inline-block;
+	width: 30%;
+	height: auto;
+	text-align:center;
+	padding: 15px;
+	margin:0 auto;
+}
+
+.projects img {
+	width:250px;
+	height:auto;
+}
+
+.about img {
+	float:left;
+	margin:15px;
+	border-width:5px;
+	border-color:#BAF5E7;
+	border-style:groove;	
+}
+
+.fuji {
+	width:100%;
+	height:65px;
+	padding-bottom:50px;
+}
+
+.links {
+	color:#41EBB9;
+}
+
+
+
+
+
+/* Start of Media Query */
+
+
+@media (max-width:1200px) {
+	.top {
+		width:550px;
+		height:50px;
+		text-align:center;
+		align-content:center;
+		margin:0 auto;
+}
+
+	.top ul {
+		height:auto;
+		text-align:center;
+		align-content:center;
+}
+
+	.top li {
+		display:inline;
+		padding-right:20px;
+		text-align:center;
+		align-content:center;
+		font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif
+}
+	
+	.about img {
+		float:left;
+		margin:15px;
+		border-width:5px;
+		border-color:#BAF5E7;
+		border-style:groove;
+		width:220px;
+		height:220px;
+	}
+}
+
+@media (max-width:700px) {
+	h1 {
+	font-family: SALARYMA, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	text-align:center;
+	color:black;
+	letter-spacing:8px;
+	font-size:25px;	
+	padding-top:5px;
+	}
+	
+	.about img {
+		float:left;
+		margin:15px;
+		border-width:5px;
+		border-color:#BAF5E7;
+		border-style:groove;
+		width:180px;
+		height:180px;
+	}
+	
+	.top {
+		width:340px;
+		height:50px;
+		text-align:center;
+		align-content:center;
+		margin:0 auto;
+	}
+	.projects {
+	border-width:thin;
+	display:block;
+	width: 350px;
+	height: auto;
+	text-align:center;
+	padding: 20px;
+	margin:0 auto;
+	}
+	.projects img {
+		width:350px;
+		height:auto;
+	}
+}
+
+@media (max-width:500px) {
+	
+	.about img {
+		border-width:5px;
+		border-color:#BAF5E7;
+		border-style:groove;
+		width:100px;
+		height:100px;
+	}
+	.top {
+	width:200px;
+	height:80px;
+	text-align:center;
+	align-content:center;
+	margin:0 auto;
+	}
+	h1 {
+		font-family: SALARYMA, Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+		text-align:center;
+		color:black;
+		letter-spacing:6px;
+		font-size:17px;	
+		padding-top:5px;
+	}
+		
+	.projects {
+		border-width:thin;
+		display:block;
+		width: 200px;
+		height: auto;
+		text-align:center;
+		padding: 20px;
+		margin:0 auto;
+	}
+	.projects img {
+		width:200px;
+		height:auto;
+	}
+		
+	.Tagline {
+		display:none;
+	}
+	.vol {
+		display:none;
+	}	
+}
+
+	
+
+
+
+
+
+
+
+
+
+
